@@ -1,0 +1,54 @@
+.header-flex{ display: flex; 
+}
+.cabeça{ font-size: 100px; color: rgb(231, 59, 7); font-family: 
+    Sixtyfour Convergence Maximum; text-align: center; padding: 10px; margin: 0 0 0 220px; 
+}
+.logo{ width: 50px; height: 50px; margin: 0 0 0 20px; border-radius: 50%; box-shadow: 0 0 50px 30px rgba(0,0,0,2); 
+}
+h2{ font-size: 50px; font-family: Newsreader ExtraBold; text-align: center; padding: 5px; color: rgb(255, 255, 255); background-color: black; border-radius: 50px; margin: 20px; 
+}
+button{ font-family: Newsreader ExtraBoldr; background-color: rgb(0, 0, 0); font-size: 20px; padding-inline-end: 10px; padding-inline-start: 10px; padding-block-end: 5px; padding-block-start: 5px; border-radius: 100px; color: rgb(255, 255, 255); border: 10px color(srgb rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255)); cursor: pointer; margin: 0 0 10px 0;
+}
+button:hover{ background-color: rgba(233, 32, 32, 0.445); color: rgb(0, 0, 0); border: 10px color(srgb rgb(231, 59, 7) rgb(231, 59, 7) rgb(231, 59, 7)); transition: all 0.1s ease-in-out; transform: scale(1.28);
+}
+nav{ background-color: rgb(0, 0, 0); padding: 32px; border-radius: 50px; margin: 0 1100px 100px 0; box-shadow: 0 0 50px 30px rgba(0,0,0,2);
+}
+h3{ font-size: 30px; font-family: Newsreader ExtraBold; text-align: center; padding: 5px; color: rgb(255, 255, 255); background-color: black; border-radius: 50px; margin: 20px; 
+}
+.faz{ font-family: Newsreader ExtraBold; font-size: 20px; text-align: center; padding: 32px; color: #fcf9f9; background-color: rgb(0, 0, 0); border-radius: 50px; margin:10px 400px 10px 400px; box-shadow: 0 0 50px 30px rgba(0,0,0,2); line-height: 35px;
+
+}
+footer{ padding: 22px; text-align: center; font-family: Newsreader ExtraBold; font-size: larger;
+}
+.conteúdo{ font-family: Newsreader ExtraBold; font-size: 20px; text-align: center; padding: 32px; color: #fcf9f9; background-color: rgb(0, 0, 0); border-radius: 50px; margin:10px; box-shadow: 0 0 50px 30px rgba(0,0,0,2); line-height: 35px; 
+}
+.layout-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; margin: 40px; margin-bottom: 50px;/* Espaço entre nav e main */
+}
+
+nav {
+    min-width: 220px; /* Largura fixa para a barra lateral */
+    margin: 0;
+}
+
+.conteúdo {
+    flex: 1; /* Ocupa o restante do espaço */
+}
+.tarja{ width: 100%; border: 10px color(srgb rgb(243, 8, 8) rgb(240, 8, 8) rgb(248, 8, 8)); border-radius: 50px; box-shadow: 0 0 50px 30px; margin: 35px 0 35px 0;}
+blockquote {
+    font-family: Newsreader ExtraBold;
+    font-size: 20px;
+    text-align: center;
+    padding: 32px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 10px 400px 10px 400px;
+    box-shadow: 0 0 50px 30px rgba(0,0,0,2);
+    line-height: 35px;
+}
+body {
+    background-color: rgb(59, 59, 59);
+}
